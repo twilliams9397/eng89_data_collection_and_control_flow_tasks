@@ -24,10 +24,9 @@
 # Program runs continuously, and exits on the word exit
 # program does not break with integer or strings
 
-rating = input("What film rating would you like information for?  ")
-rating = str(rating)
-
-while rating != "exit":
+while True:
+    print("To exit at any point please type 'exit'.")
+    rating = str(input("What film rating would you like information for?  "))
     if rating == "universal":
         print("Everyone can watch.")
         rating = str(input("What other film rating would you like information for?  "))
