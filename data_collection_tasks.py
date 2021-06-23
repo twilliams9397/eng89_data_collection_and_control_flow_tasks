@@ -3,7 +3,7 @@
 name = "name"
 name = input("What is your name?  ")
 Name = name.capitalize()
-print("Welcome to Pycharm, " + Name)
+print("Welcome to Pycharm, " + Name + "!")
 
 # Task 2
 
@@ -14,4 +14,4 @@ First_Name = first_name.capitalize()
 surname = (full_name.split())[1]
 Surname = surname.capitalize()
 Full_Name = First_Name + " " + Surname
-print("Welcome to Pycharm, {}".format(Full_Name))
+print("Welcome to Pycharm, {}!".format(Full_Name))
