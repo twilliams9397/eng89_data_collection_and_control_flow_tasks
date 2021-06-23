@@ -13,4 +13,5 @@ first_name = (full_name.split())[0]
 First_Name = first_name.capitalize()
 surname = (full_name.split())[1]
 Surname = surname.capitalize()
-print("Welcome to Pycharm, {}".format(First_Name + " " + Surname))
+Full_Name = First_Name + " " + Surname
+print("Welcome to Pycharm, {}".format(Full_Name))
