@@ -31,23 +31,18 @@ while rating != "exit":
     if rating == "universal":
         print("Everyone can watch.")
         rating = str(input("What other film rating would you like information for?  "))
-        continue
     elif rating == "pg":
         print("General viewing, but some scenes may be unsuitable for young children")
         rating = str(input("What other film rating would you like information for?  "))
-        continue
     elif rating == "12":
         print("Films classified 12A and video works classified 12 contain material that is not generally suitable for children aged under 12. No one younger than 12 may see a 12A film in a cinema unless accompanied by an adult.")
         rating = str(input("What other film rating would you like information for?  "))
-        continue
     elif rating == "15":
         print("No one younger than 15 may see a 15 film in a cinema.")
         rating = str(input("What other film rating would you like information for?  "))
-        continue
     elif rating == "18":
         print("No one younger than 18 may see an 18 film in a cinema.")
         rating = str(input("What other film rating would you like information for?  "))
-        continue
     else:
         print("We could not give you information for this rating, please try again.")
         rating = str(input("What film rating would you like information for?  "))
