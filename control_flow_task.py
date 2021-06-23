@@ -25,7 +25,6 @@
 # program does not break with integer or strings
 
 while True:
-    print("To exit at any point please type 'exit'.")
     rating = str(input("What film rating would you like information for?  "))
     if rating == "universal":
         print("Everyone can watch.")
